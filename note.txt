@@ -1,0 +1,14 @@
+# Ekualisasi histogram manual untuk seluruh data grayscale
+
+# Ambil 5 gambar dari setiap label setelah ekualisasi
+plt.figure(figsize=(15, 6))
+for idx, label in enumerate(unique):
+    idx_samples = np.where(labels == label)[0][:5]
+    for j, idx_img in enumerate(idx_samples):
+        plt.subplot(len(unique), 5, idx*5 + j + 1)
+        plt.imshow(data_eq[idx_img], cmap='gray')
+        plt.title(f"{label} #{j+1}")
+        plt.axis('off')
+plt.suptitle("5 Contoh Gambar Hasil Grayscaling + Ekualisasi per Label")
+plt.tight_layout()
+plt.show()
