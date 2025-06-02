@@ -7,7 +7,7 @@
 4. YUDHI FAJAR PRATAMA (F1D02310142)
 
 ### Tahap Preprocessing
-Percobaan 1 : Grayscale - Median
-Percobaan 2 : Grayscale - Median - Thresholding
-Percobaan 3 : Grayscale - Median - Thresholding - Opening
-Percobaan 4 : Grayscale - Median - Thresholding - Opening - Closing
+1. Percobaan 1 : Grayscale - Median
+2. Percobaan 2 : Grayscale - Median - Thresholding
+3. Percobaan 3 : Grayscale - Median - Thresholding - Opening
+4. Percobaan 4 : Grayscale - Median - Thresholding - Opening - Closing
